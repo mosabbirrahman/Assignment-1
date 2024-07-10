@@ -1,7 +1,21 @@
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.btn-primary{
+    background-color:white ;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+
 .header{
     text-align: center;
-
     background-image: url("../B10A1-Challenge-Begins/assets/Hero-bg.png")
+    
 }
 .blog{
     background-color: blanchedalmond;
@@ -22,4 +36,12 @@ h1{
 .skill{
     padding: 30px;
     background-color: aqua;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    height: 200px;
+    
+}
 }
